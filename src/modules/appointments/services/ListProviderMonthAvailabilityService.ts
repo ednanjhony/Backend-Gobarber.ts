@@ -15,7 +15,7 @@ type IResponse = Array<{
 }>;
 
 @injectable()
-class ListProviderAvailabilityService {
+class ListProviderMonthAvailabilityService {
   constructor(
     @inject('AppointmentsRepository')
     private appointmentsRepository: IAppointmentsRepository,
@@ -56,4 +56,4 @@ class ListProviderAvailabilityService {
   }
 }
 
-export default ListProviderAvailabilityService;
+export default ListProviderMonthAvailabilityService;
